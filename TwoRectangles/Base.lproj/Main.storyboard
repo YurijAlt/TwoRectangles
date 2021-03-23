@@ -16,27 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Cer-Zy-Gf6">
-                                <rect key="frame" x="10" y="54" width="394" height="798"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTs-Rx-XYf">
-                                        <rect key="frame" x="0.0" y="0.0" width="394" height="394"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gM7-1s-hne">
-                                        <rect key="frame" x="0.0" y="404" width="394" height="394"/>
-                                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                                    </view>
-                                </subviews>
-                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bTs-Rx-XYf">
+                                <rect key="frame" x="10" y="54" width="394" height="394"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gM7-1s-hne">
+                                <rect key="frame" x="10" y="458" width="394" height="394"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Cer-Zy-Gf6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="35I-op-PTW"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cer-Zy-Gf6" secondAttribute="bottom" constant="10" id="TAk-MB-6sd"/>
-                            <constraint firstItem="Cer-Zy-Gf6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Td2-77-evL"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Cer-Zy-Gf6" secondAttribute="trailing" constant="10" id="X9T-hm-icV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bTs-Rx-XYf" secondAttribute="trailing" constant="10" id="E4x-em-Ilr"/>
+                            <constraint firstItem="gM7-1s-hne" firstAttribute="top" secondItem="bTs-Rx-XYf" secondAttribute="bottom" constant="10" id="Nbc-ZF-hNJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gM7-1s-hne" secondAttribute="bottom" constant="10" id="aG2-hx-A9e"/>
+                            <constraint firstItem="gM7-1s-hne" firstAttribute="width" secondItem="bTs-Rx-XYf" secondAttribute="width" id="bRt-Ax-A8E"/>
+                            <constraint firstItem="bTs-Rx-XYf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="fAH-yr-E26"/>
+                            <constraint firstItem="gM7-1s-hne" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tvT-oj-LqN"/>
+                            <constraint firstItem="gM7-1s-hne" firstAttribute="height" secondItem="bTs-Rx-XYf" secondAttribute="height" id="uAJ-6B-tqx"/>
+                            <constraint firstItem="gM7-1s-hne" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="uSb-zX-a9Q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gM7-1s-hne" secondAttribute="trailing" constant="10" id="ybG-9I-w6r"/>
                         </constraints>
                     </view>
                 </viewController>
